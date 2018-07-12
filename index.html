@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO -->
+    <title>Música com Software Livre - um guia &middot; por lfz </title>
+    <meta name="description" content="">
+
+    <!-- URL CANONICAL -->
+    <!-- <link rel="canonical" href="http://your-url.com/permalink"> -->
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i%7CMaitree:200,300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- CSS Base -->
+    <link rel="stylesheet" type='text/css' media="all" href="../static/css/webslides.css">
+
+    <!-- Optional - CSS SVG Icons (Font Awesome) -->
+    <link rel="stylesheet" type="text/css" media="all" href="../static/css/svg-icons.css">
+
+    <!-- SOCIAL CARDS (ADD YOUR INFO) -->
+
+    <!-- FACEBOOK -->
+    <!-- EDIT -->
+    <meta property="og:url" content="#{TODO}">
+
+    <!-- EDIT -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="#{TODO}" />
+    <meta property="og:description" content="#{TODO}">
+
+    <!-- EDIT -->
+    <meta property="og:updated_time" content="">
+    <!-- EDIT -->
+    <meta property="og:image" content="#{TODO}" >
+    <!-- EDIT -->
+    <meta property="og:image:width" content="800">
+    <meta property="og:image:height" content="429">
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="#{TODO}">
+
+    <!-- EDIT -->
+    <meta name="twitter:creator" content="#{TODO}">
+    <!-- EDIT -->
+    <meta name="twitter:title" content="#{TODO}">
+    <!-- EDIT -->
+    <meta name="twitter:description" content="#{TODO}">
+    <!-- EDIT -->
+    <meta name="twitter:image" content="#{TODO}">
+
+    <!-- EDIT -->
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" sizes="16x16" href="#{TODO}">
+    <link rel="shortcut icon" sizes="32x32" href="#{TODO}">
+    <link rel="apple-touch-icon icon" sizes="76x76" href="#{TODO}">
+    <link rel="apple-touch-icon icon" sizes="120x120" href="#{TODO}">
+    <link rel="apple-touch-icon icon" sizes="152x152" href="#{TODO}">
+    <link rel="apple-touch-icon icon" sizes="180x180" href="#{TODO}">
+    <link rel="apple-touch-icon icon" sizes="192x192" href="#{TODO}">
+
+    <!-- Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#333333">
+  </head>
+
+  <body>
+    <header role="banner">
+      <nav role="navigation">
+        <p class="logo">
+          <a href="index.html" title="musica">
+          </a>
+        </p>
+        <ul>
+          <li class="github">
+            <a rel="external" href="https://github.com/lfzawacki/floss-music" title="Github">
+              <svg class="fa-github">
+                <use xlink:href="#fa-github"></use>
+              </svg>
+              <em>lfzawacki</em>
+            </a>
+          </li>
+          <li class="twitter">
+            <a rel="external" href="https://twitter.com/lfzawacki" title="Twitter">
+              <svg class="fa-twitter">
+                <use xlink:href="#fa-twitter"></use>
+              </svg>
+              <em>@lfzawacki</em>
+            </a>
+          </li>
+          <!--  <li class="dribbble"><a rel="external" href="http://dribbble.com/webslides" title="Dribbble"><svg class="fa-dribbble"><use xlink:href="#fa-dribbble"></use></svg> <em>webslides</em></a></li> -->
+        </ul>
+      </nav>
+    </header>
+
+    <main role="main">
+      <article id="webslides">
+
+        <!-- Quick Guide
+          - Each parent <section> in the <article id="webslides"> element is an individual slide.
+          - Vertical sliding = <article id="webslides" class="vertical">
+          - <div class="wrap"> = container 90% / <div class="wrap size-50"> = 45%;
+        -->
+
+        <section class="bg-purple">
+          <span class="background dark" style="background-image:url('/static/images/title.jpg')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter">
+            <h1>
+              <strong>Produção Musical com software livre</strong>
+            </h1>
+            <h2>Um guia de sobrevivência</h2>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+        <section class="bg-black-blue">
+          <span class="background dark" style="background-image:url('/static/images/lucas.png')"></span>
+          <div class="wrap size-50 bg-white">
+            <h2>
+              <svg class="fa-info-circle large">
+                <use xlink:href="#fa-user"></use>
+              </svg>
+              <strong>Sobre o autor</strong>
+            </h2>
+            <br>
+            <ul>
+              <li>Lucas Fialho Zawacki</li>
+              <li>Formado em Ciência da Computação pela UFRGS</li>
+              <li>Membro do <strong><a href="http://matehackers.org">Matehackers</a></strong></li>
+              <li>Trabalhando no <strong><a href="http://mconf.org/">Mconf</a></strong></li>
+              <li>Entusiasta do Software e Cultura Livre</li>
+            </ul>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black">
+          <span class="background dark" style="background-image:url('/static/images/lucas.png')"></span>
+          <div class="wrap bg-white size-50">
+            <h2>
+              <svg class="fa-info-circle large">
+                <use xlink:href="#fa-envelope"></use>
+              </svg>
+              <strong>Contatos</strong>
+            </h2>
+            <br>
+            <ul>
+              <li><strong><a href="https://soundcloud.com/lfzawacki/">Soundcloud</a></strong></li>
+              <li><strong><a href="http://blog.lfzawacki.com">Blog</a></strong></li>
+              <li><strong><a href="https://musica-libre.org/user/lfz">Perfil Música Libre</a></strong></li>
+              <li><strong>@lfzawacki </strong> (gmail, twitter, github, ...) </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="bg-red">
+          <span class="background dark" style="background-image:url('/static/images/mort2.png')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap aligncenter size-70 bg-trans-dark">
+            <div style="display:block;overflow:hidden;height:440px;margin-top: -20px">
+<iframe style="border: 0; width: 100%; height: 550px;margin-top: -100px;" scrolling="yes" src="https://artist.landr.com/music/800739408708" seamless=""><a href="https://artist.landr.com/music/800739408708">Existence / Resistence (Demo) by Mortticia</a></iframe>
+            </div>
+            <h3><a href="https://mortticia.rocks/music">https://mortticia.rocks/music</a></h3>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h3><strong>Como esta palestra vai funcionar?</strong></h3>
+              </div>
+              <div class="column">
+                <p class="text-intro">
+                    Vou apresentar a <strong>minha história</strong> fazendo música no Linux
+                </p>
+                <p class="text-intro">
+                    No processo vamos explorar o status da <strong>música no Linux</strong>
+                </p>
+                <p class="text-intro">
+                  Com alguma sorte, vou guiar mais músicos nessa jornada do <strong>software livre</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-black">
+          <span class="background dark" style="background-image:url('/static/images/lucas2.jpg')"></span>
+          <div class="wrap size-50 bg-white">
+            <h3>
+              <strong>Mas porque ouvir esse cara?</strong>
+            </h3>
+            <br>
+            <ul>
+              <li>Um pouco da perspectiva técnica, um pouco da perspectiva criativa</li>
+              <li>Gravei vários demos com software livre, gravei <strong>um álbum</strong></li>
+              <li>Participo da comunidade há aprox. 8 anos</li>
+              <li>Envolvido com projetos de <strong><a href="https://musical-artifacts.com/info/about">software</a></strong> e <strong><a href="https://musica-libre.org/">cultura livre</a></strong></li>
+              <li>Fui entrevistado pelo site <strong><a href="https://libremusicproduction.com/articles/lmp-asks-13-interview-lucas-zawacki">Libre Music Production</a></strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <span class="background dark" style="background-image:url('/static/images/music.png')"></span>
+          <div class="wrap size-50">
+            <h1>
+              <strong>E por que Software Livre?</strong>
+            </h1>
+          </div>
+        </section>
+
+
+        <section class="">
+          <span class="background dark" style="background-image:url('/static/images/music.png')"></span>
+          <!--.wrap = container (width: 90%) -->
+          <div class="wrap size-50 bg-trans-dark">
+            <h2>
+              <strong>Linux e Música</strong>
+            </h2>
+            <br>
+            <h4><strong>Atitude</strong></h4>
+            <p>Não é requisito, mas se você planeja ser um astro do rock então é melhor desenvolver uma atitude rebelde e  rejeitar resolutamente softwares populares.
+            </p>
+            <strong>Manual do Qtractor</strong>
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+
+        <section class="bg-white">
+          <div class="wrap size-50">
+            <h2>
+              Status do Áudio no <strong>Linux</strong>
+            </h2>
+            <p>
+              <strong>Em minha opinião a situação da música no Linux não é perfeita, mas é muito boa!</strong>
+              Quando o assunto é produção musical o cenário é muito interessante e promissor.
+            </p>
+            <ul class="text-cols">
+              <li>Grande variedade de software livre <strong>e gratuito</strong></li>
+              <li>Infraestrutura moderna de conexão (<a href="http://jackaudio.org/">JACK</a>) e plugins (<a href="http://lv2plug.in/">LV2</a>, <a href="http://www.ladspa.org/">LADSPA</a>)</li>
+              <li>Uma comunidade alinhada com os ideais FLOSS</li>
+              <li>Uso de padrões bem documentados (mesmo que nem sempre open)</li>
+              <li>Suporte aos fluxos de produção mais comuns</li>
+              <li>Suporte a uma grande quantidade de interfaces de áudio</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="fullscreen bg-white">
+          <div class="wrap aligncenter">
+              <h1 style="color: red"><strong>Mas então, temos algum problema?</strong></h1>
+          </div>
+
+          <div class="embed">
+            <video autoplay loop poster="">
+              <source src="/static/images/questao.ogg" type="video/ogg">
+              <source src="/static/images/questao.mp4" type="video/mp4">
+            </video>
+          </div>
+          <!-- .end .embed -->
+        </section>
+
+        <section class="bg-white">
+          <span class="background" style="background-image:url('/static/images/problemas1.jpg')"></span>
+          <div class="wrap size-70 bg-white aligncenter">
+            <h4><strong>Quais problemas os usuários enfrentam?</strong></h4>
+            <p class="text-intro"></p>
+            <img src="/static/images/problemas.png" width="80%">
+          </div>
+        </section>
+
+        <section>
+          <div class="wrap">
+            <div class="grid vertical-align">
+              <div class="column">
+                <h3><strong>Algumas conclusões preliminares</strong></h3>
+              </div>
+              <div class="column">
+                <p class="text-intro">
+                  Comunidade em si é pequena.
+                </p>
+                <p class="text-intro">
+                  Dificuldades técnicas.
+                </p>
+                <p class="text-intro">
+                  Disponibilidade do Hardware.
+                </p>
+                <p class="text-intro">
+                  Falta dos <strong style="color: red">killer apps</strong> ??.
+                </p>
+                <p class="text-intro">
+                  Produção Musical é um assunto confuso e controverso.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="bg-black-blue">
+          <div class="wrap size-50">
+            <h1>The Linux Audio <strong>Mess</strong> ?!!?</h1>
+            <br>
+            <p>
+              A gurizada se amarra nuns diagramas...
+            </p>
+          </div>
+        </section>
+
+        <!-- Diagram Onslaught -->
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <img src="/static/images/diag1.png" width="57%">
+            <p><em>Diagramas do áudio no Linux (#1)</em></p>
+          </div>
+        </section>
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <img src="/static/images/diag2.png" width="45%">
+            <p><em>Diagramas do áudio no Linux (#2)</em></p>
+          </div>
+        </section>
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <img src="/static/images/diag3.svg" width="36%">
+            <p><em>Diagramas do áudio no Linux (#3)</em></p>
+          </div>
+        </section>
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <img src="/static/images/diag4.jpg" width="76%">
+            <p><em>Diagramas do áudio no Linux (#4)</em></p>
+          </div>
+        </section>
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <img src="/static/images/diag5.png" width="66%">
+            <p><em>Diagramas do áudio no Linux (#5)</em></p>
+          </div>
+        </section>
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <img src="/static/images/diag6.png" width="48%">
+            <p><em>Diagramas do áudio no Linux (#6)</em></p>
+          </div>
+        </section>
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <img src="/static/images/diag7.png" width="75%">
+            <p><em>Diagramas do áudio no Linux (#7)</em></p>
+          </div>
+        </section>
+
+        <section class="bg-red">
+          <span class="background dark" style="background-image:url('/static/images/pengu.jpg')"></span>
+          <div class="wrap size-80 aligncenter">
+            <h1><strong>...</strong></h1>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h4>Mas o que você sugere?</h4>
+            <img style="padding-top: 2em; padding-bottom: 2em;" src="/static/images/jack-diagram.jpg" width="60%">
+            <p><em>O meu diagrama</em></p>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h4>E ainda podemos dar um toque final...</h4>
+            <img style="padding-top: 1em; padding-bottom: 1em;" src="/static/images/jack-diagram-more.jpg" width="38%">
+            <p><em>O meu diagrama (#2)</em></p>
+          </div>
+        </section>
+
+        <section class="bg-green">
+          <div class="wrap size-70">
+            <h1>PROBLEM SOLVED!!1!!1!one!</h1>
+            <br>
+            <p>
+              Mas e o resto?
+            </p>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background dark" style="background-image:url('/static/images/title3.jpg')"></span>
+          <div class="wrap size-60 bg-trans-dark">
+            <h3><strong>Iniciativas da comunidade</strong></h3>
+            <p class="text-intro"></p>
+            <br>
+            <ul class="text-cols">
+              <li><strong><a href="http://linuxmusicians.com">Linux Musicians Forum</a></strong></li>
+              <li><strong><a href="http://opensourcemusician.com">Open Source Musician</a></strong></li>
+              <li><strong><a href="http://linux-sound.org">Linux Sound</a></strong></li>
+              <li><strong><a href="http://lists.linuxaudio.org/listinfo/">Listas de e-mail</a></strong></li>
+              <li><strong><a href="https://www.reddit.com/r/linuxaudio/">/r/linuxaudio/</a></strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="bg-black-blue">
+          <span class="background dark" style="background-image:url('/static/images/title3.jpg')"></span>
+          <div class="wrap size-60 bg-trans-dark">
+            <h3><strong>Minhas iniciativas</strong></h3>
+            <p class="text-intro"></p>
+            <br>
+            <ul class="text-cols">
+              <li><strong><a href="https://musica-libre.org">Música Libre - https://musica-libre.org</a></strong></li>
+              <li><strong><a href="https://t.me/musica_libre">Grupo no Telegram - https://t.me/musica_libre</a></strong></li>
+              <li><strong><a href="https://musical-artifacts.com">Musical Artifacts</a></strong></li>
+              <li>Palestras e oficinas</li>
+              <li>...mais?</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <span class="background" style="background-image:url('/static/images/dims.jpeg')"></span>
+
+          <div class="wrap bg-trans-dark size-70">
+            <h4>Recomendações pt. 1</h4> <h3>Uma distro que te ajuda</h3>
+            <br>
+            <ul class="text-cols">
+              <li><strong><a href="https://kxstudio.linuxaudio.org/">KXStudio</a></strong>: Pacotes baseados em Debian/Ubuntu.</li>
+              <li><strong><a href="https://ubuntustudio.org/">Ubuntu Studio</a></strong>: Distro muito popular baseada em Ubuntu.</li>
+              <li><strong><a href="http://www.bandshed.net/avlinux/">AV Linux</a></strong>: Distro baseada em Debian</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background" style="background-image:url('/static/images/hardware.jpg')"></span>
+
+          <div class="wrap bg-trans-dark size-70">
+            <h4>Recomendações pt. 2</h4>
+            <h3>A questão do Hardware </h3>
+            <br>
+            <p>Muito importante tomar cuidado ao comprar, pois nem todos são compatíveis.</p>
+            <ul class="text-cols">
+              <li><strong><a href="http://linuxstudiopro.com/">LinuxStudioPro</a></strong></li>
+              <li><strong><a href="http://www.linuxcompatible.org/">Linux Compatible</a></strong></li>
+              <li><strong><a href="http://linux-sound.org/hardware.html">Linux Sound</a></strong></li>
+              <li><strong><a href="http://wiki.linuxaudio.org/wiki/hardware_support">Linux Audio Wiki: Hardware Support</a></strong></li>
+              <li><strong><a href="http://musica-libre.org/hardware">Lista curada por músicos brasileiros</a></strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <span class="background" style="background-image:url('/static/images/rev.jpg')"></span>
+
+          <div class="wrap bg-trans-dark size-70">
+            <h4>Recomendações pt. 3</h4>
+			<h3>Adapte-se, mas saiba quando adaptar</h3>
+            <br>
+            <p>[INSIRA TEXTO AQUI]</p>
+          </div>
+        </section>
+
+        <section>
+          <span class="background" style="background-image:url('/static/images/ceu.jpg')"></span>
+
+          <div class="wrap bg-trans-dark aligncenter size-50">
+            <h3>Recomendações pt. Final</h3>
+            <h3>Liberte sua criatividade!</h3>
+          </div>
+        </section>
+
+        <section class="bg-black">
+          <span class="background" style="background-image:url('/static/images/way.jpg'); background-position: 0px -1400px; "></span>
+          <div class="wrap size-60 aligncenter">
+            <h1>Mas por onde começar?</h1>
+          </div>
+        </section>
+
+        <section class="bg-white">
+
+          <div class="wrap size-70">
+            <h4><strong>JACK 101</strong></h4>
+            <img src="/static/images/jack.jpg" alt="">
+
+          </div>
+          <!-- .end .wrap -->
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap size-50">
+            <h1>O que é o JACK?</h1>
+            <p>
+              <strong>Jack Audio Connection Kit</strong>
+              <br>
+              A peça fundamental do áudio profissional no Linux
+            </p>
+            <ul class="text-cols">
+              <li>Roteamento modular de áudio com baixa latência</li>
+              <li>Precisa tomar acesso "exclusivo" da placa de áudio</li>
+              <li>Um 'barramento' de áudio entre diferentes aplicativos</li>
+              <li>Escreve/lê e redireciona Áudio/MIDI de softwares e hardwares</li>
+              <li>Sincroniza e negocia o BPM de diferentes aplicações</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h3>Tem esse diagrama...</h3>
+            <img src="/static/images/diag8.png" width="55%">
+            <p><em>JACK Audio Connection Kit (#8)</em></p>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h3>Mas na prática...</h3>
+            <img src="/static/images/latencia.png" width="65%">
+            <p><em>Diagrama de Latência</em></p>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h4>Conexões (#1)</h4>
+            <br>
+            <img src="/static/images/jack1.png" width="65%">
+            <p><em>qjackctl com guitarix</em></p>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h4>Conexões (#2)</h4>
+            <br>
+            <img src="/static/images/jack2.png" width="65%">
+            <p><em>qjackctl guitarix, zynaddsubfx, calf delay</em></p>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h4>Conexões (#3)</h4>
+            <br>
+            <img src="/static/images/catia1.png" width="45%">
+            <p><em>Catia guitarix</em></p>
+          </div>
+        </section>
+
+        <section class="bg-white">
+          <div class="wrap aligncenter">
+            <h4>Conexões (#4)</h4>
+            <br>
+            <img src="/static/images/catia2.png" width="45%">
+            <p><em>Catia guitarix, zynaddsubfx, calf delay</em></p>
+          </div>
+        </section>
+
+        <section class="fullscreen bg-white">
+          <div class="embed">
+            <video controls loop poster="">
+              <source src="/static/images/all.mp4" type="video/mp4">
+            </video>
+          </div>
+        </section>
+
+        <section class="bg-purple">
+          <span class="background" style="background-image:url('/static/images/escolha.jpg')"></span>
+          <div class="wrap aligncenter">
+            <h1><strong>Escolha as suas armas</strong></h1>
+          </div>
+        </section>
+
+        <section class="">
+          <span class="background" style="background-image:url('/static/images/efeitos.jpg')"></span>
+          <div class="wrap aligncenter size-50 bg-black bg-trans-dark">
+            <h2><strong>Guitarra / Baixo</strong></h2>
+            <br>
+            <ul class="text-cols">
+            <li><strong><a href="http://guitarix.sourceforge.net/">Guitarix</a></strong></li>
+            <li><strong><a href="http://rakarrack.sourceforge.net/">Rakarrack</a></strong></li>
+            <li><strong><a href="http://linuxmusicians.com/viewtopic.php?f=24&amp;t=7251">gx_tuner</a></strong></li>
+            <li><strong><a href="http://sourceforge.net/projects/tuxguitar/">TuxGuitar</a></strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="">
+          <span class="background" style="background-image:url('/static/images/title2.jpg')"></span>
+          <div class="wrap aligncenter size-50 bg-black bg-trans-dark">
+            <h2><strong>Bateria</strong></h2>
+            <br>
+            <ul class="text-cols">
+            <li><strong><a href="http://guitarix.sourceforge.net/">Hydrogen</a></strong></li>
+            <li><strong><a href="http://rakarrack.sourceforge.net/">Drumgizmo</a></strong></li>
+            <li><strong>Soundfonts</strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="">
+          <span class="background" style="background-image:url('/static/images/synths.jpg')"></span>
+          <div class="wrap aligncenter size-50 bg-black bg-trans-dark">
+            <h2><strong>Orquestração / outros instrumentos</strong></h2>
+            <br>
+            <ul class="text-cols">
+            <li><strong><a href="http://sourceforge.net/projects/zynaddsubfx/">ZynAddSubFX</a></strong></li>
+            <li><strong><a href="http://bristol.sourceforge.net/about.html">Bristol</a></strong></li>
+            <li><strong><a href="http://linuxsampler.org">Linuxsampler</a></strong></li>
+            <li><strong>Alsa Modular Synth</strong></li>
+            <li><strong><a href="http://qsynth.sourceforge.net/qsynth-index.html">QSynth</a></strong> e outros synths</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="">
+          <span class="background" style="background-image:url('/static/images/synths.jpg')"></span>
+          <div class="wrap aligncenter size-50 bg-black bg-trans-dark">
+            <h2><strong>Sintetizadores</strong></h2>
+            <br>
+            <h3 id="linuxsynths.com"><a href="http://linuxsynths.com/">linuxsynths.com/</a></h3>
+          </div>
+        </section>
+
+        <section class="">
+          <span class="background" style="background-image:url('/static/images/daw.jpg')"></span>
+          <div class="wrap size-50 size-50 bg-black bg-trans-dark">
+            <h3><strong>Digital Audio Workstations</strong></h3>
+            <br>
+            <ul class="text-cols">
+            <li><strong><a href="https://rosegardenmusic.com/">Rosegarden</a></strong></li>
+            <li><strong><a href="http://www.muse-sequencer.org/">Muse</a></strong></li>
+            <li><strong><a href="http://ardour.org/">Ardour</a></strong></li>
+            <li><strong><a href="http://qtractor.sourceforge.net/qtractor-index.html">Qtractor</a></strong></li>
+            <li><strong><a href="https://lmms.io/">LMMS</a></strong></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="bg-purple">
+          <span class="background" style="background-image:url('/static/images/title.jpg')"></span>
+          <div class="wrap aligncenter">
+            <h1><strong>Conclusão</strong></h1>
+          </div>
+        </section>
+
+        <section class="fullscreen bg-white">
+          <div class="wrap aligncenter">
+            <h1><strong>Perguntas?</strong></h1>
+          </div>
+          <div class="embed">
+            <video autoplay loop poster="">
+              <source src="/static/images/questao2.ogg" type="video/ogg">
+              <source src="/static/images/questao2.mp4" type="video/mp4">
+            </video>
+          </div>
+        </section>
+
+      </article>
+    </main>
+    <!--main-->
+
+    <footer>
+      <div class="wrap">
+        <h3>
+          <span class="alignright">
+            <strong>
+              <a style="color: #EDD400;" href="https://twitter.com/lfzawacki">@lfz
+              </a>
+            </strong>
+          </span>
+        </h3>
+      </div>
+    </footer>
+
+    <!-- Required -->
+    <script src="../static/js/webslides.js"></script>
+    <script>
+      window.ws = new WebSlides();
+    </script> <!-- Autoslide? window.ws = new WebSlides({ autoslide: 8000 }); -->
+
+    <!-- OPTIONAL - svg-icons.js (fontastic.me - Font Awesome as svg icons) -->
+    <script defer src="../static/js/svg-icons.js"></script>
+
+  </body>
+</html>
